@@ -1,6 +1,6 @@
 <?php
 
-# App Info, needed for Auth
+# Configure these three next lines, the rest should do itself
 $fbpage = "YOUR_FACEBOOK_PAGE";
 $app_id = "YOUR_FACEBOOK_APP_ID"; # go to https://developers.facebook.com/quickstarts/?platform=web and make yourself an app, this is the app id
 $app_secret = "YOUR_FACEBOOK_APP_SECRET"; # and this is the app secret
@@ -13,12 +13,12 @@ if ($test_mode){
 			$externalpage = true;
 	}
 	else {
-		$profile_id = Â$fbpage;
+		$profile_id = $fbpage;
 		$externalpage = false;
 	}
 }
 else {
-	$profile_id = â$fbpage;
+	$profile_id = $fbpage;
 	$externalpage = false;
 }
 function fetchUrl($url) {
