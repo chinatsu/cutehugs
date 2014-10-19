@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
 	<link rel="icon" type="image/png" href="favico.png">
 <?php
@@ -11,7 +11,6 @@ include 'res/config.php';
 include 'res/Parsedown.php';
 $parse = new Parsedown();
 include 'res/error.php';
-
 ?>
 	<title><?=$infoarray["name"]?> - powered by cute hugs</title>
   </head>
@@ -34,7 +33,7 @@ include 'res/error.php';
 	</div>
 	<div class="row">
 		<div class="large-12 medium-12 columns">
-<?php include 'cute/feedmodule.php';?>
+<?php include 'res/feedmodule.php';?>
 		</div>
 	</div>
 	<!-- <div class="row">
