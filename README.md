@@ -1,3 +1,7 @@
+warning
+========
+This repository violates the new GitHub Code of Conduct. Proceed at own risk.
+
 cutehugs
 ========
 
